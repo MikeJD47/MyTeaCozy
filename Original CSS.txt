@@ -1,0 +1,136 @@
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: auto;
+}
+
+/*header styling*/
+
+.fuckingheader{
+    display: inline-flex;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 1;
+    background-color: black;
+    margin-top: -22px;
+}
+
+.mainsect{
+    position: absolute;
+    padding-top: 48px;
+    margin: 0 auto;  
+}
+
+
+#logo{
+    width: auto;
+    height: 50px;
+    margin-left: 10px;
+    justify-content: flex-start;
+    padding-top: 15px;
+}
+
+.navlist ul{
+    display: flex;
+    justify-content: flex-end;
+    height: auto;
+
+}
+
+.navlist li{
+    display: inline;
+    padding: 10px;
+}
+
+
+#jumbotron{
+    display: flex;
+    position: relative;
+    height: 700px;
+    width: 1200px;
+    background-image: url(./Recouses/img-mission-background.jpg);
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    margin: 0 auto;
+}
+
+.jumbobanner{
+    text-align: center;
+    position: relative;
+    display: flexbox;
+    background-color: black;
+    height: auto;
+    width: 100%;
+}
+
+.imgcontainer img{
+    height: 200px;
+    flex-basis: 300px;
+    flex-shrink: 1;
+}
+.imgcontainer h4{
+    padding-top: 10px;
+}
+
+.imgcontainer{
+    height: auto;
+    width: auto;
+    flex-shrink: 1;
+    text-align: center;
+}
+
+#TeaOTM{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#section2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+#locations{
+    display: flex;
+    height: 700px;
+    width: 1200px;
+    background-image: url(./Recouses/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    margin: 0 auto; 
+}
+
+
+.locationssection{
+    display: flex;
+    justify-content: space-around;
+    flex-shrink: 2;
+    flex-wrap: nowrap;
+    max-width: 1200px ;
+    justify-content: center;
+}
+
+
+.locationconatiner{
+    display: inline-flex; 
+    width: 300px;
+    height: auto;
+    background-color: black ;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.TeaCozy{
+    text-align: center;
+}
